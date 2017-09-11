@@ -17,7 +17,7 @@ You can install Handshake with composer:
 After composer pulls in Handshake, you need to enable Handshake:
 
     php bin/magento module:enable IrishTitan_Handshake
-    
+    # [Freelance Magento Developer](https://www.phpfreelanceprogrammer.com/magento-programmer.html)
 Finish the installation by running:
 
     php bin/magento setup:upgrade
