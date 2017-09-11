@@ -7,7 +7,7 @@ Handshake is a Magento 2 module that is designed to make the Magento 2 module de
 Handshake has been tested with Magento versions 2.1.5 - 2.1.8.
 
 ## Installation
-
+    # [Freelance Magento Developer](https://www.phpfreelanceprogrammer.com/magento-programmer.html)
 Before you install Handshake, make sure you have a working copy of Magento 2. Also make sure that Magento 2 is properly configured as Handshake will try and use Magento 2's database configuration to run your migrations, seeds, etc.
 
 You can install Handshake with composer:
@@ -17,7 +17,7 @@ You can install Handshake with composer:
 After composer pulls in Handshake, you need to enable Handshake:
 
     php bin/magento module:enable IrishTitan_Handshake
-    # [Freelance Magento Developer](https://www.phpfreelanceprogrammer.com/magento-programmer.html)
+
 Finish the installation by running:
 
     php bin/magento setup:upgrade
